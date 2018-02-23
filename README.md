@@ -3,7 +3,36 @@ Name of Student: Chris K Johnson
 
 Name of Project: Tiny Anthems
 
-![UI of Tiny Anthems](tiny-anthems-UI.png)
+![Tiny Anthems Interface](tiny-anthems-interface.png)
+
+![Tiny Anthems Components](tiny-anthems-components.png)
+
+*Store Data Structure:*
+```
+{
+  users: {
+    0: { // userId
+      name: 'Joe Smith',
+      questionnaires: [
+        {
+          status: 'pending',
+          questions: {
+            q1: 'a1',
+            q2: 'a2',
+          }
+        }
+      ],
+      songs: [
+        {
+          title: 'a song for you',
+          url: 'tiny-anthems.com/download/ta8hn345bkgs',
+        }
+      ]
+    }
+  }
+}
+```
+ex: state.users.0.questionnaires[0].status
 
 ## Project’s Purpose or Goal:
 
