@@ -5,7 +5,7 @@ Name of Project: Tiny Anthems
 
 ![Tiny Anthems Interface](tiny-anthems-interface2.png)
 
-![Tiny Anthems Components](tiny-anthems-components2.png)
+![Tiny Anthems Components](tiny-anthems-components3.png)
 
 *Store Data Structure:*
 ```
