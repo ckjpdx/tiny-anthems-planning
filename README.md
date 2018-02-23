@@ -3,6 +3,8 @@ Name of Student: Chris K Johnson
 
 Name of Project: Tiny Anthems
 
+![UI of Tiny Anthems](tiny-anthems-UI.png)
+
 ## Project’s Purpose or Goal:
 
 A service for customers to commission musician Mike Long to create a song about a person after supplying information about them via questionnaire.
