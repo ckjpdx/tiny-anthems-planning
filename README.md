@@ -3,9 +3,9 @@ Name of Student: Chris K Johnson
 
 Name of Project: Tiny Anthems
 
-![Tiny Anthems Interface](tiny-anthems-interface.png)
+![Tiny Anthems Interface](tiny-anthems-interface2.png)
 
-![Tiny Anthems Components](tiny-anthems-components.png)
+![Tiny Anthems Components](tiny-anthems-components2.png)
 
 *Store Data Structure:*
 ```
@@ -25,14 +25,14 @@ Name of Project: Tiny Anthems
       songs: [
         {
           title: 'a song for you',
-          url: 'tiny-anthems.com/download/ta8hn345bkgs',
+          url: 'tiny-anthems.com/download/4g57hq4wf/song.mp3',
         }
       ]
     }
   }
 }
 ```
-ex: state.users.0.questionnaires[0].status
+`ex: state.users.0.questionnaires[0].status`
 
 ## Project’s Purpose or Goal:
 
