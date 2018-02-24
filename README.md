@@ -3,6 +3,8 @@ Name of Student: Chris K Johnson
 
 Name of Project: Tiny Anthems
 
+## [View Static App Repo](https://github.com/ckjpdx/tiny-anthems-static)
+
 ![Tiny Anthems Interface](tiny-anthems-interface2.png)
 
 ![Tiny Anthems Components](tiny-anthems-components3.png)
