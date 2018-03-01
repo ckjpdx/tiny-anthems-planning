@@ -9,29 +9,35 @@ Name of Project: Tiny Anthems
 
 ![Tiny Anthems Components](tiny-anthems-components3.png)
 
-*Store Data Structure:*
+*Persistent State:*
 ```
 {
-  users: {
-    0: { // userId
-      name: 'Joe Smith',
+  questionnairesById: {
+
+  },
+  songsById: {
+    1: {
+      userId: 1,
+      title: 'a song for you',
+      review: '',
+      url: 'tiny-anthems.com/download/4g57hq4wf/song.mp3',
+      questionnaireId: 1
+    }
+  },
+  usersById: {
+    1: {
+      name: 'claire',
       questionnaires: [
-        {
-          status: 'pending',
-          questions: {
-            q1: 'a1',
-            q2: 'a2',
-          }
-        }
+        questionnairesId1,
+        questionnairesId2,
+        questionnairesId3
       ],
       songs: [
-        {
-          title: 'a song for you',
-          url: 'tiny-anthems.com/download/4g57hq4wf/song.mp3',
-        }
+        songsId1,
+        songsId2
       ]
     }
-  }
+  },
 }
 ```
 `ex: state.users.0.questionnaires[0].status`
