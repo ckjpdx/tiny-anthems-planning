@@ -73,6 +73,9 @@ A service for customers to commission musician Mike Long to create a song about 
 }
 ```
 
+## State
+State will reside in App.js because all routes and UI splits (depending on who is logged in) will diverge from this file.
+
 ### Minimum Representation of UI State
 Sign In / Sign Out Button
 *App.js*
