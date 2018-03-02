@@ -9,39 +9,6 @@ Name of Project: Tiny Anthems
 
 ![Tiny Anthems Components](tiny-anthems-components4.png)
 
-*Persistent State:*
-```
-{
-  questionnairesById: {
-
-  },
-  songsById: {
-    1: {
-      userId: 1,
-      title: 'a song for you',
-      review: '',
-      url: 'tiny-anthems.com/download/4g57hq4wf/song.mp3',
-      questionnaireId: 1
-    }
-  },
-  usersById: {
-    1: {
-      name: 'claire',
-      questionnaires: [
-        questionnairesId1,
-        questionnairesId2,
-        questionnairesId3
-      ],
-      songs: [
-        songsId1,
-        songsId2
-      ]
-    }
-  },
-}
-```
-`ex: state.users.0.questionnaires[0].status`
-
 ## Project’s Purpose or Goal:
 
 A service for customers to commission musician Mike Long to create a song about a person after supplying information about them via questionnaire.
@@ -73,3 +40,46 @@ A service for customers to commission musician Mike Long to create a song about 
 ### What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
 
 * AWS database
+
+## Persistent State:*
+```
+{
+  questionnairesById: {
+
+  },
+  songsById: {
+    1: {
+      userId: 1,
+      title: 'a song for you',
+      review: '',
+      url: 'tiny-anthems.com/download/4g57hq4wf/song.mp3',
+      questionnaireId: 1
+    }
+  },
+  usersById: {
+    1: {
+      name: 'claire',
+      questionnaires: [
+        questionnairesId1,
+        questionnairesId2,
+        questionnairesId3
+      ],
+      songs: [
+        songsId1,
+        songsId2
+      ]
+    }
+  },
+}
+```
+
+### Minimum Representation of UI State
+Sign In / Sign Out Button
+*App.js*
+```
+this.state = {
+  signIn: {
+    isUserSignedIn: false,
+    signInButtonText: 'Sign In'
+  }
+```
